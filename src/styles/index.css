@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+input:focus{
+  outline: none;
+  border-color: #172B4D;
+  border-radius: 8px;
+}
+
+input{
+  caret-color: #52b788;
+  border-style: solid;
+}

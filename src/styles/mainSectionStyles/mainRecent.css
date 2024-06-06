@@ -1,0 +1,72 @@
+.mainRecentDiv{
+    width: 25%;
+}
+
+.mainRecentDiv h3{
+    text-align: right;
+    margin-bottom: 2vh;
+}
+
+.recentsDiv{
+    padding: 8px 8px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.recentsDiv:hover{
+    background-color: rgba(224, 224, 224, 0.562);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.recentBoardName{
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.recentBoardDescription{
+    font-size: .7em;
+    color: grey;
+    margin-top: .5vh;
+}
+
+.mainRecentSmallBlock{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+
+.mainRecentTextDiv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.noRecentsInfo{
+    font-size: .8em;
+    text-align: right;
+}
+
+@media screen and (max-width: 900px) {
+    .mainRecentDiv{
+        width: 80%;
+        margin-top: 4vh;
+    }
+
+    .mainRecentDiv h3{
+        text-align: center;
+    }
+
+    .recentsDiv{
+        padding: 4px;
+        width: 80%;
+        margin-top: 1vh;
+    }
+
+    .noRecentsInfo{
+        font-size: .9em;
+        text-align: center;
+    }
+  }

@@ -1,0 +1,76 @@
+.editTaskLabelsDiv{
+    border: 0.5px solid rgba(189, 189, 189, 0.603);
+    background: white;
+    width: 280px;
+    position: absolute;
+    left: 250px;
+    z-index: 999;
+}
+
+.edidTaskDivHeading{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+    margin-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.editTaskHeading{
+    color: grey;
+    font-size: .9em;
+    margin: 0 auto;
+}
+
+.labelsInfo{
+    font-size: .85em;
+    margin-top: 2vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+}
+
+.colorLabels{
+    width: 90%;
+    margin: 2vh auto;
+}
+
+.colorLabelDiv{
+    width: 100%;
+    border-radius: 5px;
+    height: 3.5vh;
+    cursor: pointer;
+    margin-top: 1vh;
+}
+
+.colorLabelDiv i{
+    position: inherit;
+    font-size: 1.8em;
+    color: ivory;
+}
+
+.createLabelBtn{
+    display: block;
+    border-radius: 5px;
+    background: rgba(194, 194, 194, 0.404);
+    width: 90%;
+    border: none;
+    margin: 1vh auto;
+    text-align: center;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+.createLabelBtn:hover{
+    background: rgba(194, 194, 194, 0.76);
+}
+
+@media screen and (max-width: 700px) {
+    .editTaskLabelsDiv{
+        width: 280px;
+        position: absolute;
+        left: 180px;
+        z-index: 999;
+    }
+    
+}

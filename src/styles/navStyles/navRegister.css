@@ -1,0 +1,80 @@
+.registerDiv{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 15%;
+    top: 60px;
+    right: 25px;
+    z-index: 999;
+    background: rgba(221, 224, 251, 0.21);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 2px solid rgba(221, 224, 251, 0.3);
+}
+
+.registerDiv input{
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: .5px solid grey;
+    color: black;
+    width: 75%;
+    cursor: pointer;
+    padding-left: .4em;
+}
+
+.registerDiv label{
+    cursor: pointer;
+    color: black;
+}
+
+.registerInputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.registerDiv button{
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 1vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px 3px;
+    color: black;
+    border: .5px solid grey;
+    border-radius: 10px;
+    width: 50%;
+    cursor: pointer;
+}
+
+.registerHeading{
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+    font-size: .95em;
+    color: black;
+}
+
+.error{
+    color: rgba(228, 13, 13, 0.973);
+    margin-top: 1vh;
+    text-align: center;
+    font-size: .75em;
+}
+
+@media screen and (max-width: 1100px) {
+    .registerDiv{
+        width: 25%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .registerDiv{
+        width: 50%;
+    }
+  }

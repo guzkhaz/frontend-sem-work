@@ -1,0 +1,89 @@
+.yourWorkspaceDiv{
+    min-height: calc(100vh - 55px);
+}
+
+.yourWorkspaceHeadingDiv{
+    background-color: rgba(236, 234, 234, 0.548);
+    min-height: 28vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yourWorkspaceHeading{
+    font-size: 1.3em;
+}
+
+.yourWorkspaceDescription{
+    font-size: .8em;
+    margin-top: 0.5vh;
+}
+
+.yourWorkspaceHeadingDivComponents{
+    width: 30%;
+    height: 24vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.workspaceOptions{
+    display: flex;
+}
+
+.workspaceOptions > div{
+    margin-left: 1em;
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: rgb(212, 212, 212);   
+    font-size: .85em;
+    color: rgb(36, 36, 36);
+}
+
+.yourWorkspaceHeadingAndDescriptionDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.editWorkspaceDiv{
+    max-width: 50%;
+    margin-top: 2vh;
+    border-radius: 5px;
+    padding: 12px 12px;
+    display: flex;
+    font-size: .8em;
+    color: rgb(36, 36, 36);
+    cursor: pointer;
+    background-color: rgba(212, 212, 212, 0.548);
+}
+
+.editWorkspaceDiv:hover{
+    background-color: rgba(167, 167, 167, 0.548);
+}
+
+
+@media screen and (max-width: 1100px) {
+    .editWorkspaceDiv{
+        max-width: 65%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .yourWorkspaceHeadingDivComponents{
+        width: 50%;
+    }
+
+    .editWorkspaceDiv{
+        max-width: 55%;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .yourWorkspaceHeadingDivComponents{
+        width: 60%;
+    }
+
+    .editWorkspaceDiv{
+        max-width: 80%;
+    }
+  }

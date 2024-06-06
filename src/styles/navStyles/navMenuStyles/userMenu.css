@@ -1,0 +1,14 @@
+.userChoicesDiv{
+    font-weight: bold;
+    z-index: 99999;
+}
+
+.userChoiceDiv{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+    .userChoicesDiv{
+        width: 18%;
+    }
+}

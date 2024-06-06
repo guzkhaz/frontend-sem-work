@@ -1,0 +1,61 @@
+.mainSectionHighlightsDiv{
+    width: 50%;
+}
+
+.mainSectionHighlightsDiv h3{
+    text-align: center;
+}
+
+.highlightsInfo{
+    width: 60%;
+    margin: 2vh auto;
+}
+
+.highlightsInfoDescription{
+    font-size: .8em;
+    margin-top: 3vh;
+}
+
+.highlight{
+    background: rgba(221, 224, 251, 0.21);
+    border-radius: 25px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 2px solid rgba(201, 201, 201, 0.459);
+    padding: 15px 18px;
+    margin: 4vh auto;
+    width: 80%;
+}
+
+.highlightUser{
+    font-size: .8em;
+    font-weight: bold;
+}
+
+.highlightMessage{
+    margin-top: 1vh;
+    font-size: .95em;
+}
+
+.highlightBoardInfo{
+    margin-top: 3vh;
+    font-size: .8em;
+    cursor: pointer;
+    width: 30%;
+}
+
+.highlightBoardInfo span{
+    font-weight: bold;
+}
+
+.highlightDate{
+    font-size: .7em;
+    color: grey;
+}
+
+@media screen and (max-width: 900px) {
+    .mainSectionHighlightsDiv{
+        display: none;
+    }
+  }

@@ -1,0 +1,120 @@
+.workspaceBoardsDiv{
+    width: 80%;
+    margin: 4vh auto;
+}
+
+.workspaceBoardsHeading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.workspaceBoardsHeading h4{
+    font-size: 1.2em
+}
+
+.showingBoards{
+    margin-top: 5%;
+    font-size: .85em;
+    color: rgb(87, 87, 87);
+}
+
+.workspaceBoards{
+    margin-top: 4vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.workspaceBoards > div{
+    margin-left: 1em;
+    margin-top: 1vh;
+}
+
+.workspaceCreateBoard{
+    background-color: rgba(207, 207, 207, 0.555);
+    padding: 30px 20px;
+    border-radius: 5px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.workspaceCreateBoard:hover{
+    background-color: rgba(167, 167, 167, 0.548);
+}
+
+.workspaceCreateBoard p{
+    font-size: .85em;
+}
+
+.workspaceYourBoard{
+    width: 20%;
+    border-radius: 5px;
+    padding: 30px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+}
+
+.workspaceYourBoard p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.workspaceYourBoard:hover{
+    filter: brightness(90%);
+}
+
+.workspaceYourBoard i {
+    color: black;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.workspaceYourBoard i:hover{
+    font-size: 1.2em;
+    color: red;
+}
+
+
+@media screen and (max-width: 900px) {
+    .workspaceBoardsDiv{
+        width: 95%;
+        margin: 4vh auto;
+    }
+
+    .workspaceCreateBoard{
+        height: 2vh;
+        width: 25%;
+    }
+
+    .workspaceYourBoard{
+        height: 2vh;
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .workspaceBoardsDiv{
+        width: 95%;
+        margin: 4vh auto;
+    }
+
+    .workspaceCreateBoard{
+        width: 35%;
+    }
+
+    .workspaceYourBoard{
+        width: 35%;
+    }
+}

@@ -1,0 +1,17 @@
+.taskDescriptionFormDiv{
+    margin-top: 1vh;
+}
+
+.taskDescriptionInput{
+    border: none;
+    background: #091e420a;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.taskDescriptionInput:hover{
+    background: #14223b1f;
+}

@@ -1,0 +1,224 @@
+.taskDetailsDiv{
+    position: fixed;
+    top:50%; 
+    left:50%; 
+    transform:translate(-50%, -50%);
+    border-radius: 5px;
+    z-index: 9999;
+    background: rgb(236, 236, 236);
+    width: 40%;
+    max-width: 600px;
+    height: 95%;
+    overflow-y: auto;
+    border: 1px solid rgba(85, 85, 85, 0.623);
+    -webkit-box-shadow: -7px 9px 10px -5px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -7px 9px 10px -5px rgba(66, 68, 90, 1);
+    box-shadow: -7px 9px 10px -5px rgba(66, 68, 90, 1);
+}
+
+.taskDetailsDiv:hover{
+    cursor: default;
+}
+
+.taskDetailsName{
+    margin: 1vh auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+    white-space: nowrap;
+    width: 85%;                
+    overflow: hidden;           
+    text-overflow: ellipsis;
+}
+
+.editTaskNameInput{
+    height: 40px;
+    font-size: 1.2em;
+    padding: 5px;
+    border: 2px solid blue;
+    width: 100%;
+}
+
+.taskDetailsName:hover{
+    cursor: pointer;
+}
+
+.taskDetailsListName{
+    width: 90%;
+    margin: .1vh auto;
+    font-size: .9em;
+    color: #5e6c84;
+}
+
+.taskDetailsListName span{
+    color: black;
+    font-weight: bold;
+}
+
+.taskDetailsLabel{
+    width: 90%;
+    margin: 4vh auto;
+    position: relative;
+}
+
+.taskDetailsLabelDivWithColor{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1vh;
+}
+
+.taskDetailsLabelDivs{
+    display: flex;
+    justify-content: space-around;
+    width: 16%;
+}
+
+.taskDetailAddLabelDiv{
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 1vh;
+    background-color: #040c1b2a;
+    position: relative;
+}
+
+.taskDetailAddLabelDiv{
+    cursor: pointer;
+}
+
+#addLabelPlus{
+    position: absolute;
+    left: 46%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+    font-size: 1.2em;
+}
+
+.taskDetailsDescriptionDiv{
+    width: 90%;
+    margin-top: 6vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taskDetailsDescriptionHeading{
+    font-weight: bold;
+}
+
+.taskDetailsDescription{
+    margin-top: 1vh;
+    padding: 15px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskDetailsDescriptionEnter{
+    color: grey;
+    font-size: .9em;
+    margin-top: 1vh;
+    padding: 18px;
+    cursor: pointer;
+}
+
+.taskDetailsDescriptionEnter:hover{
+    background-color: rgba(179, 179, 179, 0.329);
+}
+
+.taskDetailsDescription:hover{
+    background-color: rgba(179, 179, 179, 0.329);
+}
+
+.taskDetailsActivityDiv{
+    width: 90%;
+    margin-top: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.taskDetailsActivityHeading{
+    font-weight: bold;
+}
+
+.taskDetailsActivityComment{
+    margin-top: 1vh;
+}
+
+.taskDetailsActivityCommentDiv{
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    background: #c5c5c50a;
+    margin-top: 1vh;
+    padding-bottom: 10px;
+}
+
+.taskDetailsWholeCommentDiv{
+    margin-top: 1vh;
+}
+
+.taskDetailsCommentAuthorAndDate{
+    display: flex;
+}
+
+.commentAuthor{
+    font-size: .9em;
+}
+
+.commentDate{
+    margin-left: 1em;
+    font-size: .8em;
+}
+
+.commentAuthor{
+    font-weight: bold;
+}
+
+.commentDate{
+    color: grey;
+}
+
+.taskDetailsActivityCommentDiv{
+    padding-left: 5px;
+}
+
+.taskDetailsActivityCommentEditDelete{
+    display: flex;
+    font-weight: bold;
+    font-size: .8em;
+    margin-top: .5vh;
+    color: grey;
+}
+
+.commentDelete{
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.commentEdit{
+    cursor: pointer;
+}
+
+.taskDetailsActivityCommentEditDelete > p:hover{
+    color: black;
+}
+
+#cornerIcon{
+    position: absolute;
+    z-index: 999;
+    top: 8px;
+    right: 8px;
+}
+
+@media screen and (max-width: 700px) {
+    .taskDetailsDiv{
+        z-index: 9999;
+        width: 90%;
+        height: 80%;
+    }
+
+    .taskDetailsLabelDivs{
+        display: flex;
+        justify-content: space-around;
+        width: 30%;
+    }
+}

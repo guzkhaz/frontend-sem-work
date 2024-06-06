@@ -1,0 +1,62 @@
+.createLabel{
+    width: 50%;
+    background-color: white;
+    position:fixed;
+    top:40%; 
+    left:50%; 
+    transform:translate(-50%, -50%);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.7px);
+    -webkit-backdrop-filter: blur(3.7px);
+    border: 1px solid rgba(85, 85, 85, 0.623);
+    z-index: 99999;
+    -webkit-box-shadow: -7px 9px 10px -5px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -7px 9px 10px -5px rgba(66, 68, 90, 1);
+    box-shadow: -7px 9px 10px -5px rgba(66, 68, 90, 1);
+}
+
+.createLabelOptions{
+    width: 90%;
+    margin: 2vh auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.labelOption{
+    width: 45px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.labelOption:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.createLabelButton{
+    background-color: #0079bf;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    width: 90px;
+    padding: 9px;
+    margin-bottom: 1vh;
+    margin-left: 1em;
+}
+
+#cornerIcon{
+    position: absolute;
+    z-index: 999;
+    top: 8px;
+    right: 8px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .createLabel{
+        width: 65%;
+    }
+}

@@ -1,0 +1,184 @@
+.navSearchBarDiv{
+    position: absolute;
+    right: 10%;
+}
+
+.navSearchInput{
+    padding: 8px 8px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    width: 260px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.navSearchInput::placeholder{
+    color: ivory;
+}
+
+#navSearchIcon{
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+
+.searchHints{
+    padding: 8px 8px;
+    background: rgba(255, 255, 255, 0.11);
+    border-radius: 8px;
+    width: 260px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 45px;
+    z-index: 9999;
+    color: black;
+    font-weight: bold;
+    font-size: .9em;
+    display: flex;
+    flex-direction: column;
+}
+
+.searchHint{
+    padding: 8px 8px;
+}
+
+.searchHint span{
+    color: grey;
+    margin-left: 2em;
+}
+
+.searchingLink{
+    text-decoration: none;
+    color: black;
+    padding: 8px 8px;
+}
+
+.searchHintDiv{
+    width: 200px;
+}
+
+.searchHintDiv:hover{
+    background: rgba(194, 194, 194, 0.496);
+}
+
+.searchHintColorDiv{
+    width: 25px;
+    height: 25px;
+}
+
+.mobileSearch{
+    display: none !important;
+}
+
+.mobileSearch:hover{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    cursor: pointer;
+}
+
+.mobileSearch h4{
+    font-size: .85em;
+}
+
+@media screen and (max-width: 1300px) {
+    .navSearchBarDiv{
+        position: absolute;
+        right: 15%;
+    }
+  }
+
+  @media screen and (max-width: 799px){
+    .navSearchInput{
+        width: 200px;
+    }
+
+    .searchHints{
+        width: 220px;
+        right: -80%;
+        top: 88px;
+        padding: 4px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.284);
+    }
+
+    .searchHint{
+        padding: 4px;
+    }
+
+    .mobileSearch{
+        display: flex !important;
+        justify-content: space-between;
+        padding: 8px !important;
+        position: relative;
+    }
+
+    .mobileSearch i{
+        margin-left: .2em;
+    }
+
+    .navigationSearchForm{
+        display: none;
+        position: absolute;
+        right: -80%;
+        top: 52px;
+        color: black;
+    }
+
+    .navSearchInput{
+        border: 1px solid black;
+    }
+
+    .navSearchInput::placeholder{
+        color: black;
+    }
+
+    #navSearchIcon{
+        position: absolute;
+        top: 8px;
+    }
+
+    .mobileSearch h4{
+        font-size: .7em;
+        padding: 2px !important;
+    }
+
+    .mobileSearch:hover{
+        background: inherit;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+  }
+
+  @media screen and (max-width: 700px) {
+    .navSearchInput{
+        width: 200px;
+    }
+
+    .searchHints{
+        width: 200px;
+        right: -50%;
+        top: 88px;
+        padding: 4px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.284);
+    }
+
+    .searchHint{
+        font-size: .85em;
+    }
+
+    .navigationSearchForm{
+        display: none;
+        position: absolute;
+        right: -50%;
+        top: 52px;
+        color: black;
+    }
+  }

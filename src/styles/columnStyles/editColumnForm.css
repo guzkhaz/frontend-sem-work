@@ -1,0 +1,62 @@
+.editColumnFormDiv{
+    border: 0.5px solid rgba(189, 189, 189, 0.603);
+    background: white;
+    position: absolute;
+    width: 90%;
+    left: 200px;
+    top: 40px;
+    z-index: 999999999;
+}
+
+.editColumnFormDiv i{
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.edidColumnFormDivHeading{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.486);
+    margin-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.editColumnHeading{
+    color: grey;
+    font-size: .9em;
+    margin: 0 auto;
+}
+
+.editColumnFormActions{
+    margin-top: 1vh;
+}
+
+.editColumnFormActions p{
+    padding: 4px 4px;
+    margin-top: 1vh;
+    margin-left: 1em;
+    font-size: .95em;
+}
+
+.editColumnFormActions p:last-child{
+    margin-bottom: 1vh;
+}
+
+.editColumnFormActions p:hover{
+    background-color: rgba(211, 211, 211, 0.329);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    .editColumnFormDiv{
+        border: 0.5px solid rgba(189, 189, 189, 0.603);
+        background: white;
+        position: absolute;
+        width: 50%;
+        left: 190px;
+        top: 20px;
+        z-index: 999999999;
+    }
+}

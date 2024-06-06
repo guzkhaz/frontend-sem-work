@@ -1,0 +1,53 @@
+.taskDiv{
+    background-color: white;
+    position: relative;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5vh;
+    border-radius: 5px;
+    -webkit-box-shadow: -4px 8px 15px -11px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -4px 8px 15px -11px rgba(66, 68, 90, 1);
+    box-shadow: -4px 8px 15px -11px rgba(66, 68, 90, 1);
+    padding: 2px 2px;
+    word-wrap: break-word;
+}
+
+.taskDiv:hover{
+    background-color: rgba(179, 179, 179, 0.329);
+    cursor: pointer;
+}
+
+.taskDivIndicator{
+    position: relative;
+    top: 6px;
+    left: 4px;
+    width: 40px;
+    border-radius: 5px;
+    height: .8vh;
+}
+
+.taskName{
+    padding: 6px 6px;
+    margin-top: .5vh;
+    width: 90%;
+    word-wrap: break-word;
+}
+
+.taskIcons{
+    width: 20%;
+    margin-left: .5em;
+    margin-bottom: .5vh;
+}
+
+.taskIcons i{
+    margin-left: .5em;
+    font-size: .9em;
+}
+
+#cornerIcon{
+    position: absolute;
+    z-index: 999;
+    top: 8px;
+    right: 8px;
+}

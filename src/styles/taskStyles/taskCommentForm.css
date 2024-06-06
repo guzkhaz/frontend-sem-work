@@ -1,0 +1,20 @@
+.taskCommentFormDiv{
+    margin-top: 1vh;
+}
+
+.taskCommentInput{
+    border: 1px solid rgba(128, 128, 128, 0.295);
+    background: #c5c5c50a;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.taskCommentInput:hover{
+    -webkit-box-shadow: 0px 8px 15px -16px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 8px 15px -16px rgba(66, 68, 90, 1);
+    box-shadow: 0px 8px 15px -16px rgba(66, 68, 90, 1);
+    cursor: pointer;
+}

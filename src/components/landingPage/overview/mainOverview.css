@@ -1,0 +1,19 @@
+.mainOverviewDiv{
+    width: 60%;
+    margin: 4vh auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+    .mainOverviewDiv{
+        width: 70%;
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .mainOverviewDiv{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+  }

@@ -1,0 +1,53 @@
+.boardHeadingBOARD{
+    margin-top: 1vh;
+    display: flex;
+}
+
+.boardDivBOARD{
+    min-height: calc(100vh - 55px);
+    display: flex;
+    flex-direction: column;
+}
+
+.boardNameBOARD{
+    margin-left: 2em;
+    color: ivory;
+    font-size: .95em;
+}
+
+.boardUserNameBOARD{
+    margin-left: 2em;
+    color: ivory;
+    font-size: .95em;
+}
+
+.boardAllColumnsDivBOARD{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 2vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    overflow: auto;
+    flex: 1;
+}
+
+#trash{
+    position: fixed;
+    bottom: 6vh;
+    right: 2.5em;
+    font-size: 2.5em;
+}
+
+@media screen and (max-width: 700px) {
+    .boardAllColumnsDivBOARD{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #trash{
+        position: fixed;
+        bottom: 5vh;
+        right: 1em;
+        font-size: 2em;
+    }
+}

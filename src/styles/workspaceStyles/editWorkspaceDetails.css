@@ -1,0 +1,43 @@
+.editWorkspaceDetailsDiv{
+    margin-top: 2vh;
+    width: 15%;
+}
+
+.editWorkspaceDetailsDiv input{
+    border-radius: 5px;
+    border-color: ivory;
+    border-style: solid;
+}
+
+.editWorkspaceDetailsDiv input:focus{
+    outline: none;
+    border-radius: 5px;
+    border-color: #52b788;
+}
+
+.editWorkspaceButtons{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    margin-left: .2em;
+}
+
+.editWorkspaceButtons button{
+    padding: 8px 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.saveButton{
+    background-color: #0079bf;
+}
+
+.cancelButton{
+    margin-left: .5em;
+    background-color: rgb(221, 221, 221);
+}
+
+.editWorkspaceDescriptionError{
+color: red;
+font-size: .7em;
+}

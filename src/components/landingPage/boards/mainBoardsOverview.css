@@ -1,0 +1,22 @@
+.mainBoardsDiv{
+    width: 60%;
+    margin: 4vh auto;
+    display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+
+  }
+
+  @media screen and (max-width: 1100px) {
+
+  }
+
+  @media screen and (max-width: 900px) {
+    .mainBoardsDiv{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+  }

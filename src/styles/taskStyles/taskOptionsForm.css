@@ -1,0 +1,37 @@
+.taskOptionsFormDiv{
+    background: white;
+    position: absolute;
+    left: 260px;
+    top: 60px;
+    z-index: 99999999;
+    width: 70%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: -5px 6px 14px -6px rgba(66, 68, 90, 1);
+    -moz-box-shadow: -5px 6px 14px -6px rgba(66, 68, 90, 1);
+    box-shadow: -5px 6px 14px -6px rgba(66, 68, 90, 1);
+}
+
+.taskOptionsFormDiv > p{
+    color: black;
+    font-size: 1.02em;
+    padding: .8vh .8vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskOptionsFormDiv >p:hover{
+    background-color: rgba(179, 179, 179, 0.329);
+}
+
+@media screen and (max-width: 700px) {
+    .taskOptionsFormDiv{
+        position: absolute;
+        left: 230px;
+        top: 60px;
+        z-index: 99999999;
+        width: 40%;
+        padding: 10px 10px;
+    }
+}
+

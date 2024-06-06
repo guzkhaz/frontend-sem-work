@@ -1,0 +1,138 @@
+.mainSectionMenuDiv{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.menuLink{
+    text-decoration: none;
+    color: black;
+}
+
+.menuBoards{
+    display: flex;
+    font-weight: bold;
+    font-size: .9em;
+    margin-top: 2vh;
+    margin-bottom: .5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuBoards:hover{
+    background-color: rgba(224, 224, 224, 0.562);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menuBoards i{
+    margin-left: .5em;
+}
+
+.menuBoards p{
+    margin-left: 1em;
+}
+
+.menuHome{
+    display: flex;
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: .5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuHome:hover{
+    background-color: rgba(224, 224, 224, 0.562);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menuHome i{
+    margin-left: .5em;
+}
+
+.menuHome p{
+    margin-left: 1em;
+}
+
+.menuWorkspacesHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(131, 130, 130);
+    font-size: .8em;
+    margin-top: 4vh;
+    width: 90%;
+}
+
+.menuWorkspacesHeading i{
+    margin-right: .4em;
+    cursor: pointer;
+    padding: 2px 2px;
+    border-radius: 5px;
+}
+
+.menuWorkspacesHeading i:hover{
+    background-color: rgba(224, 224, 224, 0.562);
+}
+
+.menuWorkspaces{
+    margin-top: 1vh;
+}
+
+.workspace{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 4px;
+    width: 90%;
+}
+
+.workspace:hover{
+    background-color: rgba(224, 224, 224, 0.562);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.workspace p{
+    font-weight: bold;
+    font-size: .95em;
+    width: 100%;                
+    overflow: hidden;               
+    text-overflow: ellipsis;
+}
+
+.workspaceOption{
+    display: flex;
+    font-weight: bold;
+    font-size: .9em;
+    margin-top: 1vh;
+    margin-bottom: .5vh;
+    margin-left: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: .8em;
+    color: rgb(82, 81, 81);
+    width: 80%;
+}
+
+.workspaceOption:hover{
+    background-color: rgba(224, 224, 224, 0.562);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.workspaceOption i{
+    margin-left: .5em;
+}
+
+.workspaceOption p{
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 900px) {
+    .mainSectionMenuDiv{
+        width: 80%;
+    }
+  }
